@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "agorartcengine_ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AgoraIO/AgoraRtcEngine_iOS",
+      "state" : {
+        "revision" : "75d5b9ce6e3676c1e6efaf91fbdfaafb8d20daa6",
+        "version" : "4.3.0"
+      }
+    },
+    {
+      "identity" : "elkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/khacdai37/ELKit.git",
+      "state" : {
+        "revision" : "5ddbe37b8b6b963adc03392513d71e11b9388b5d",
+        "version" : "1.0.1"
+      }
+    },
+    {
+      "identity" : "snapkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SnapKit/SnapKit.git",
+      "state" : {
+        "revision" : "2842e6e84e82eb9a8dac0100ca90d9444b0307f4",
+        "version" : "5.7.1"
+      }
+    }
+  ],
+  "version" : 2
+}

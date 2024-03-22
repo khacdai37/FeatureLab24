@@ -7,23 +7,117 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F51ED1502BAD646C00397C33 /* FeatureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51ED14F2BAD646C00397C33 /* FeatureApp.swift */; };
+		F51ED1522BAD682600397C33 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51ED1512BAD682600397C33 /* AppCoordinator.swift */; };
+		F51ED1542BAD684E00397C33 /* CoordinatorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51ED1532BAD684E00397C33 /* CoordinatorManager.swift */; };
+		F51ED1572BAD6AB300397C33 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51ED1562BAD6AB300397C33 /* MainCoordinator.swift */; };
+		F51ED15A2BAD6E8900397C33 /* RTCEngineKitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51ED1592BAD6E8900397C33 /* RTCEngineKitViewModel.swift */; };
+		F51FEF032B99750400FCC717 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E3C9F72B986E1300230EF6 /* libc++.tbd */; };
+		F51FEF052B99754000FCC717 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51FEF042B99754000FCC717 /* Accelerate.framework */; };
+		F51FEF072B99754E00FCC717 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51FEF062B99754E00FCC717 /* SystemConfiguration.framework */; };
+		F51FEF6E2B999F4B00FCC717 /* CatSparks.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F51FEF6D2B999F4B00FCC717 /* CatSparks.bundle */; };
+		F59177392BAD5A38001599DE /* AIAEC in Frameworks */ = {isa = PBXBuildFile; productRef = F59177382BAD5A38001599DE /* AIAEC */; };
+		F591773B2BAD5A38001599DE /* AINS in Frameworks */ = {isa = PBXBuildFile; productRef = F591773A2BAD5A38001599DE /* AINS */; };
+		F591773D2BAD5A38001599DE /* AudioBeauty in Frameworks */ = {isa = PBXBuildFile; productRef = F591773C2BAD5A38001599DE /* AudioBeauty */; };
+		F591773F2BAD5A38001599DE /* ClearVision in Frameworks */ = {isa = PBXBuildFile; productRef = F591773E2BAD5A38001599DE /* ClearVision */; };
+		F59177412BAD5A38001599DE /* ContentInspect in Frameworks */ = {isa = PBXBuildFile; productRef = F59177402BAD5A38001599DE /* ContentInspect */; };
+		F59177432BAD5A38001599DE /* FaceCapture in Frameworks */ = {isa = PBXBuildFile; productRef = F59177422BAD5A38001599DE /* FaceCapture */; };
+		F59177452BAD5A38001599DE /* FaceDetection in Frameworks */ = {isa = PBXBuildFile; productRef = F59177442BAD5A38001599DE /* FaceDetection */; };
+		F59177472BAD5A38001599DE /* ReplayKit in Frameworks */ = {isa = PBXBuildFile; productRef = F59177462BAD5A38001599DE /* ReplayKit */; };
+		F59177492BAD5A38001599DE /* RtcBasic in Frameworks */ = {isa = PBXBuildFile; productRef = F59177482BAD5A38001599DE /* RtcBasic */; };
+		F591774B2BAD5A38001599DE /* SpatialAudio in Frameworks */ = {isa = PBXBuildFile; productRef = F591774A2BAD5A38001599DE /* SpatialAudio */; };
+		F591774D2BAD5A38001599DE /* VQA in Frameworks */ = {isa = PBXBuildFile; productRef = F591774C2BAD5A38001599DE /* VQA */; };
+		F591774F2BAD5A38001599DE /* VideoAv1CodecDec in Frameworks */ = {isa = PBXBuildFile; productRef = F591774E2BAD5A38001599DE /* VideoAv1CodecDec */; };
+		F59177512BAD5A38001599DE /* VideoCodecDec in Frameworks */ = {isa = PBXBuildFile; productRef = F59177502BAD5A38001599DE /* VideoCodecDec */; };
+		F59177532BAD5A38001599DE /* VideoCodecEnc in Frameworks */ = {isa = PBXBuildFile; productRef = F59177522BAD5A38001599DE /* VideoCodecEnc */; };
+		F59177552BAD5A38001599DE /* VirtualBackground in Frameworks */ = {isa = PBXBuildFile; productRef = F59177542BAD5A38001599DE /* VirtualBackground */; };
+		F59177582BAD5B68001599DE /* ELCore in Frameworks */ = {isa = PBXBuildFile; productRef = F59177572BAD5B68001599DE /* ELCore */; };
+		F591775A2BAD5B68001599DE /* ELUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = F59177592BAD5B68001599DE /* ELUIKit */; };
+		F591775C2BAD5E98001599DE /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F591775B2BAD5E98001599DE /* MainViewModel.swift */; };
 		F596F2022B91C6E200514407 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F596F2012B91C6E200514407 /* AppDelegate.swift */; };
 		F596F2042B91C6E200514407 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F596F2032B91C6E200514407 /* SceneDelegate.swift */; };
-		F596F2062B91C6E200514407 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F596F2052B91C6E200514407 /* ViewController.swift */; };
-		F596F2092B91C6E200514407 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F596F2072B91C6E200514407 /* Main.storyboard */; };
+		F596F2062B91C6E200514407 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F596F2052B91C6E200514407 /* MainViewController.swift */; };
 		F596F20B2B91C6E300514407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F596F20A2B91C6E300514407 /* Assets.xcassets */; };
 		F596F20E2B91C6E300514407 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F596F20C2B91C6E300514407 /* LaunchScreen.storyboard */; };
+		F5E3C9BC2B98563300230EF6 /* RTCEngineKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E3C9BB2B98563300230EF6 /* RTCEngineKitViewController.swift */; };
+		F5E3C9C32B985B9400230EF6 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = F5E3C9C22B985B9400230EF6 /* SnapKit-Dynamic */; };
+		F5E3C9C42B985B9400230EF6 /* SnapKit-Dynamic in Embed Frameworks */ = {isa = PBXBuildFile; productRef = F5E3C9C22B985B9400230EF6 /* SnapKit-Dynamic */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		F5E3C9D82B985C0C00230EF6 /* ai_hand_processor.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F5E3C9CB2B985C0C00230EF6 /* ai_hand_processor.bundle */; };
+		F5E3C9D92B985C0C00230EF6 /* ai_face_processor.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F5E3C9CC2B985C0C00230EF6 /* ai_face_processor.bundle */; };
+		F5E3C9DA2B985C0C00230EF6 /* ai_human_processor.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F5E3C9CD2B985C0C00230EF6 /* ai_human_processor.bundle */; };
+		F5E3C9DB2B985C0C00230EF6 /* tongue.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F5E3C9CF2B985C0C00230EF6 /* tongue.bundle */; };
+		F5E3C9DC2B985C0C00230EF6 /* fxaa.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F5E3C9D02B985C0C00230EF6 /* fxaa.bundle */; };
+		F5E3C9DD2B985C0C00230EF6 /* face_makeup.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F5E3C9D12B985C0C00230EF6 /* face_makeup.bundle */; };
+		F5E3C9DE2B985C0C00230EF6 /* controller_cpp.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F5E3C9D22B985C0C00230EF6 /* controller_cpp.bundle */; };
+		F5E3C9DF2B985C0C00230EF6 /* body_slim.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F5E3C9D32B985C0C00230EF6 /* body_slim.bundle */; };
+		F5E3C9E02B985C0C00230EF6 /* fuzzytoonfilter.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F5E3C9D42B985C0C00230EF6 /* fuzzytoonfilter.bundle */; };
+		F5E3C9E12B985C0C00230EF6 /* face_beautification.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F5E3C9D52B985C0C00230EF6 /* face_beautification.bundle */; };
+		F5E3C9E22B985C0C00230EF6 /* aitype.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F5E3C9D62B985C0C00230EF6 /* aitype.bundle */; };
+		F5E3C9E32B985C1800230EF6 /* FURenderKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E3C9C72B985C0C00230EF6 /* FURenderKit.framework */; };
+		F5E3C9E42B985C1800230EF6 /* FURenderKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F5E3C9C72B985C0C00230EF6 /* FURenderKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F5E3C9EB2B98606C00230EF6 /* FUManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E3C9EA2B98606C00230EF6 /* FUManager.m */; };
+		F5E3C9EE2B986DC100230EF6 /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E3C9ED2B986DC100230EF6 /* CoreML.framework */; };
+		F5E3C9F02B986DD800230EF6 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E3C9EF2B986DD800230EF6 /* CoreMedia.framework */; };
+		F5E3C9F22B986DE100230EF6 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E3C9F12B986DE100230EF6 /* CoreMotion.framework */; };
+		F5E3C9F42B986DEC00230EF6 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E3C9F32B986DEC00230EF6 /* VideoToolbox.framework */; };
+		F5E3C9F62B986DF700230EF6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E3C9F52B986DF700230EF6 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F5E3C9C52B985B9400230EF6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F5E3C9E42B985C1800230EF6 /* FURenderKit.framework in Embed Frameworks */,
+				F5E3C9C42B985B9400230EF6 /* SnapKit-Dynamic in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		F51ED14F2BAD646C00397C33 /* FeatureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureApp.swift; sourceTree = "<group>"; };
+		F51ED1512BAD682600397C33 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		F51ED1532BAD684E00397C33 /* CoordinatorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatorManager.swift; sourceTree = "<group>"; };
+		F51ED1562BAD6AB300397C33 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		F51ED1592BAD6E8900397C33 /* RTCEngineKitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTCEngineKitViewModel.swift; sourceTree = "<group>"; };
+		F51FEF042B99754000FCC717 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		F51FEF062B99754E00FCC717 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F51FEF6D2B999F4B00FCC717 /* CatSparks.bundle */ = {isa = PBXFileReference; lastKnownFileType = file; path = CatSparks.bundle; sourceTree = "<group>"; };
+		F591775B2BAD5E98001599DE /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		F596F1FE2B91C6E200514407 /* MetaViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetaViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F596F2012B91C6E200514407 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F596F2032B91C6E200514407 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F596F2052B91C6E200514407 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F596F2082B91C6E200514407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F596F2052B91C6E200514407 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		F596F20A2B91C6E300514407 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F596F20D2B91C6E300514407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F596F20F2B91C6E300514407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5E3C9BB2B98563300230EF6 /* RTCEngineKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTCEngineKitViewController.swift; sourceTree = "<group>"; };
+		F5E3C9C72B985C0C00230EF6 /* FURenderKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FURenderKit.framework; sourceTree = "<group>"; };
+		F5E3C9C82B985C0C00230EF6 /* authpack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = authpack.h; sourceTree = "<group>"; };
+		F5E3C9CB2B985C0C00230EF6 /* ai_hand_processor.bundle */ = {isa = PBXFileReference; lastKnownFileType = file; path = ai_hand_processor.bundle; sourceTree = "<group>"; };
+		F5E3C9CC2B985C0C00230EF6 /* ai_face_processor.bundle */ = {isa = PBXFileReference; lastKnownFileType = file; path = ai_face_processor.bundle; sourceTree = "<group>"; };
+		F5E3C9CD2B985C0C00230EF6 /* ai_human_processor.bundle */ = {isa = PBXFileReference; lastKnownFileType = file; path = ai_human_processor.bundle; sourceTree = "<group>"; };
+		F5E3C9CF2B985C0C00230EF6 /* tongue.bundle */ = {isa = PBXFileReference; lastKnownFileType = file; path = tongue.bundle; sourceTree = "<group>"; };
+		F5E3C9D02B985C0C00230EF6 /* fxaa.bundle */ = {isa = PBXFileReference; lastKnownFileType = file; path = fxaa.bundle; sourceTree = "<group>"; };
+		F5E3C9D12B985C0C00230EF6 /* face_makeup.bundle */ = {isa = PBXFileReference; lastKnownFileType = file; path = face_makeup.bundle; sourceTree = "<group>"; };
+		F5E3C9D22B985C0C00230EF6 /* controller_cpp.bundle */ = {isa = PBXFileReference; lastKnownFileType = file; path = controller_cpp.bundle; sourceTree = "<group>"; };
+		F5E3C9D32B985C0C00230EF6 /* body_slim.bundle */ = {isa = PBXFileReference; lastKnownFileType = file; path = body_slim.bundle; sourceTree = "<group>"; };
+		F5E3C9D42B985C0C00230EF6 /* fuzzytoonfilter.bundle */ = {isa = PBXFileReference; lastKnownFileType = file; path = fuzzytoonfilter.bundle; sourceTree = "<group>"; };
+		F5E3C9D52B985C0C00230EF6 /* face_beautification.bundle */ = {isa = PBXFileReference; lastKnownFileType = file; path = face_beautification.bundle; sourceTree = "<group>"; };
+		F5E3C9D62B985C0C00230EF6 /* aitype.bundle */ = {isa = PBXFileReference; lastKnownFileType = file; path = aitype.bundle; sourceTree = "<group>"; };
+		F5E3C9E52B98600B00230EF6 /* MetaViewDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MetaViewDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		F5E3C9EA2B98606C00230EF6 /* FUManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FUManager.m; sourceTree = "<group>"; };
+		F5E3C9EC2B9861A200230EF6 /* FUManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FUManager.h; sourceTree = "<group>"; };
+		F5E3C9ED2B986DC100230EF6 /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
+		F5E3C9EF2B986DD800230EF6 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F5E3C9F12B986DE100230EF6 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		F5E3C9F32B986DEC00230EF6 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		F5E3C9F52B986DF700230EF6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F5E3C9F72B986E1300230EF6 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +125,81 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F59177582BAD5B68001599DE /* ELCore in Frameworks */,
+				F59177392BAD5A38001599DE /* AIAEC in Frameworks */,
+				F51FEF072B99754E00FCC717 /* SystemConfiguration.framework in Frameworks */,
+				F51FEF052B99754000FCC717 /* Accelerate.framework in Frameworks */,
+				F59177452BAD5A38001599DE /* FaceDetection in Frameworks */,
+				F59177432BAD5A38001599DE /* FaceCapture in Frameworks */,
+				F591773F2BAD5A38001599DE /* ClearVision in Frameworks */,
+				F59177512BAD5A38001599DE /* VideoCodecDec in Frameworks */,
+				F591774B2BAD5A38001599DE /* SpatialAudio in Frameworks */,
+				F51FEF032B99750400FCC717 /* libc++.tbd in Frameworks */,
+				F591773B2BAD5A38001599DE /* AINS in Frameworks */,
+				F5E3C9C32B985B9400230EF6 /* SnapKit-Dynamic in Frameworks */,
+				F591775A2BAD5B68001599DE /* ELUIKit in Frameworks */,
+				F5E3C9F02B986DD800230EF6 /* CoreMedia.framework in Frameworks */,
+				F59177532BAD5A38001599DE /* VideoCodecEnc in Frameworks */,
+				F5E3C9E32B985C1800230EF6 /* FURenderKit.framework in Frameworks */,
+				F5E3C9F42B986DEC00230EF6 /* VideoToolbox.framework in Frameworks */,
+				F591774D2BAD5A38001599DE /* VQA in Frameworks */,
+				F591774F2BAD5A38001599DE /* VideoAv1CodecDec in Frameworks */,
+				F591773D2BAD5A38001599DE /* AudioBeauty in Frameworks */,
+				F5E3C9EE2B986DC100230EF6 /* CoreML.framework in Frameworks */,
+				F5E3C9F22B986DE100230EF6 /* CoreMotion.framework in Frameworks */,
+				F59177552BAD5A38001599DE /* VirtualBackground in Frameworks */,
+				F59177472BAD5A38001599DE /* ReplayKit in Frameworks */,
+				F5E3C9F62B986DF700230EF6 /* AVFoundation.framework in Frameworks */,
+				F59177412BAD5A38001599DE /* ContentInspect in Frameworks */,
+				F59177492BAD5A38001599DE /* RtcBasic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F51ED14E2BAD645C00397C33 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				F51ED14F2BAD646C00397C33 /* FeatureApp.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		F51ED1552BAD6A9D00397C33 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F51ED1532BAD684E00397C33 /* CoordinatorManager.swift */,
+				F51ED1512BAD682600397C33 /* AppCoordinator.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F51ED1582BAD6D9400397C33 /* RtcEngineKit */ = {
+			isa = PBXGroup;
+			children = (
+				F5E3C9BB2B98563300230EF6 /* RTCEngineKitViewController.swift */,
+				F51ED1592BAD6E8900397C33 /* RTCEngineKitViewModel.swift */,
+			);
+			path = RtcEngineKit;
+			sourceTree = "<group>";
+		};
+		F591775D2BAD5E9D001599DE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F596F2052B91C6E200514407 /* MainViewController.swift */,
+				F591775B2BAD5E98001599DE /* MainViewModel.swift */,
+				F51ED1562BAD6AB300397C33 /* MainCoordinator.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		F596F1F52B91C6E200514407 = {
 			isa = PBXGroup;
 			children = (
 				F596F2002B91C6E200514407 /* MetaViewDemo */,
 				F596F1FF2B91C6E200514407 /* Products */,
+				F5E3C9B82B98535400230EF6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +214,97 @@
 		F596F2002B91C6E200514407 /* MetaViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F591775D2BAD5E9D001599DE /* Main */,
+				F51ED1582BAD6D9400397C33 /* RtcEngineKit */,
+				F51ED1552BAD6A9D00397C33 /* App */,
+				F51ED14E2BAD645C00397C33 /* Entities */,
 				F596F2012B91C6E200514407 /* AppDelegate.swift */,
 				F596F2032B91C6E200514407 /* SceneDelegate.swift */,
-				F596F2052B91C6E200514407 /* ViewController.swift */,
-				F596F2072B91C6E200514407 /* Main.storyboard */,
 				F596F20A2B91C6E300514407 /* Assets.xcassets */,
 				F596F20C2B91C6E300514407 /* LaunchScreen.storyboard */,
+				F5E3C9B72B98517900230EF6 /* Sources */,
+				F5E3C9B62B98516000230EF6 /* Resources */,
 				F596F20F2B91C6E300514407 /* Info.plist */,
 			);
 			path = MetaViewDemo;
+			sourceTree = "<group>";
+		};
+		F5E3C9B62B98516000230EF6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F5E3C9B72B98517900230EF6 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F5E3C9C62B985C0C00230EF6 /* Lib */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F5E3C9B82B98535400230EF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F51FEF062B99754E00FCC717 /* SystemConfiguration.framework */,
+				F51FEF042B99754000FCC717 /* Accelerate.framework */,
+				F5E3C9F72B986E1300230EF6 /* libc++.tbd */,
+				F5E3C9F52B986DF700230EF6 /* AVFoundation.framework */,
+				F5E3C9F32B986DEC00230EF6 /* VideoToolbox.framework */,
+				F5E3C9F12B986DE100230EF6 /* CoreMotion.framework */,
+				F5E3C9EF2B986DD800230EF6 /* CoreMedia.framework */,
+				F5E3C9ED2B986DC100230EF6 /* CoreML.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5E3C9C62B985C0C00230EF6 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				F5E3C9C72B985C0C00230EF6 /* FURenderKit.framework */,
+				F5E3C9C82B985C0C00230EF6 /* authpack.h */,
+				F51FEF6D2B999F4B00FCC717 /* CatSparks.bundle */,
+				F5E3C9C92B985C0C00230EF6 /* Resources */,
+				F5E3C9E52B98600B00230EF6 /* MetaViewDemo-Bridging-Header.h */,
+				F5E3C9EA2B98606C00230EF6 /* FUManager.m */,
+				F5E3C9EC2B9861A200230EF6 /* FUManager.h */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		F5E3C9C92B985C0C00230EF6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F5E3C9CA2B985C0C00230EF6 /* model */,
+				F5E3C9CE2B985C0C00230EF6 /* graphics */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F5E3C9CA2B985C0C00230EF6 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F5E3C9CB2B985C0C00230EF6 /* ai_hand_processor.bundle */,
+				F5E3C9CC2B985C0C00230EF6 /* ai_face_processor.bundle */,
+				F5E3C9CD2B985C0C00230EF6 /* ai_human_processor.bundle */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F5E3C9CE2B985C0C00230EF6 /* graphics */ = {
+			isa = PBXGroup;
+			children = (
+				F5E3C9CF2B985C0C00230EF6 /* tongue.bundle */,
+				F5E3C9D02B985C0C00230EF6 /* fxaa.bundle */,
+				F5E3C9D12B985C0C00230EF6 /* face_makeup.bundle */,
+				F5E3C9D22B985C0C00230EF6 /* controller_cpp.bundle */,
+				F5E3C9D32B985C0C00230EF6 /* body_slim.bundle */,
+				F5E3C9D42B985C0C00230EF6 /* fuzzytoonfilter.bundle */,
+				F5E3C9D52B985C0C00230EF6 /* face_beautification.bundle */,
+				F5E3C9D62B985C0C00230EF6 /* aitype.bundle */,
+			);
+			path = graphics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,12 +317,33 @@
 				F596F1FA2B91C6E200514407 /* Sources */,
 				F596F1FB2B91C6E200514407 /* Frameworks */,
 				F596F1FC2B91C6E200514407 /* Resources */,
+				F5E3C9C52B985B9400230EF6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = MetaViewDemo;
+			packageProductDependencies = (
+				F5E3C9C22B985B9400230EF6 /* SnapKit-Dynamic */,
+				F59177382BAD5A38001599DE /* AIAEC */,
+				F591773A2BAD5A38001599DE /* AINS */,
+				F591773C2BAD5A38001599DE /* AudioBeauty */,
+				F591773E2BAD5A38001599DE /* ClearVision */,
+				F59177402BAD5A38001599DE /* ContentInspect */,
+				F59177422BAD5A38001599DE /* FaceCapture */,
+				F59177442BAD5A38001599DE /* FaceDetection */,
+				F59177462BAD5A38001599DE /* ReplayKit */,
+				F59177482BAD5A38001599DE /* RtcBasic */,
+				F591774A2BAD5A38001599DE /* SpatialAudio */,
+				F591774C2BAD5A38001599DE /* VQA */,
+				F591774E2BAD5A38001599DE /* VideoAv1CodecDec */,
+				F59177502BAD5A38001599DE /* VideoCodecDec */,
+				F59177522BAD5A38001599DE /* VideoCodecEnc */,
+				F59177542BAD5A38001599DE /* VirtualBackground */,
+				F59177572BAD5B68001599DE /* ELCore */,
+				F59177592BAD5B68001599DE /* ELUIKit */,
+			);
 			productName = MetaViewDemo;
 			productReference = F596F1FE2B91C6E200514407 /* MetaViewDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +360,7 @@
 				TargetAttributes = {
 					F596F1FD2B91C6E200514407 = {
 						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1520;
 					};
 				};
 			};
@@ -109,8 +371,14 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = F596F1F52B91C6E200514407;
+			packageReferences = (
+				F5E3C9BD2B98577100230EF6 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				F59177372BAD5A38001599DE /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */,
+				F59177562BAD5B68001599DE /* XCRemoteSwiftPackageReference "ELKit" */,
+			);
 			productRefGroup = F596F1FF2B91C6E200514407 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,8 +394,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				F596F20E2B91C6E300514407 /* LaunchScreen.storyboard in Resources */,
+				F5E3C9E22B985C0C00230EF6 /* aitype.bundle in Resources */,
+				F5E3C9D92B985C0C00230EF6 /* ai_face_processor.bundle in Resources */,
+				F5E3C9DA2B985C0C00230EF6 /* ai_human_processor.bundle in Resources */,
 				F596F20B2B91C6E300514407 /* Assets.xcassets in Resources */,
-				F596F2092B91C6E200514407 /* Main.storyboard in Resources */,
+				F5E3C9DB2B985C0C00230EF6 /* tongue.bundle in Resources */,
+				F5E3C9DD2B985C0C00230EF6 /* face_makeup.bundle in Resources */,
+				F5E3C9DE2B985C0C00230EF6 /* controller_cpp.bundle in Resources */,
+				F5E3C9E12B985C0C00230EF6 /* face_beautification.bundle in Resources */,
+				F51FEF6E2B999F4B00FCC717 /* CatSparks.bundle in Resources */,
+				F5E3C9DF2B985C0C00230EF6 /* body_slim.bundle in Resources */,
+				F5E3C9DC2B985C0C00230EF6 /* fxaa.bundle in Resources */,
+				F5E3C9E02B985C0C00230EF6 /* fuzzytoonfilter.bundle in Resources */,
+				F5E3C9D82B985C0C00230EF6 /* ai_hand_processor.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +417,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F596F2062B91C6E200514407 /* ViewController.swift in Sources */,
+				F51ED1522BAD682600397C33 /* AppCoordinator.swift in Sources */,
+				F596F2062B91C6E200514407 /* MainViewController.swift in Sources */,
+				F51ED1572BAD6AB300397C33 /* MainCoordinator.swift in Sources */,
+				F51ED15A2BAD6E8900397C33 /* RTCEngineKitViewModel.swift in Sources */,
+				F591775C2BAD5E98001599DE /* MainViewModel.swift in Sources */,
 				F596F2022B91C6E200514407 /* AppDelegate.swift in Sources */,
+				F51ED1502BAD646C00397C33 /* FeatureApp.swift in Sources */,
+				F51ED1542BAD684E00397C33 /* CoordinatorManager.swift in Sources */,
+				F5E3C9EB2B98606C00230EF6 /* FUManager.m in Sources */,
 				F596F2042B91C6E200514407 /* SceneDelegate.swift in Sources */,
+				F5E3C9BC2B98563300230EF6 /* RTCEngineKitViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F596F2072B91C6E200514407 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F596F2082B91C6E200514407 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F596F20C2B91C6E300514407 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +495,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +549,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -285,24 +564,33 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FMYMV97WBM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MetaViewDemo/Sources/Lib",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MetaViewDemo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need camera";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Need mic";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jp.stageinc.app.blue.develop.MetaViewDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = io.agora.AgoraLiveBroadcast1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MetaViewDemo/Sources/Lib/MetaViewDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -313,24 +601,32 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FMYMV97WBM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MetaViewDemo/Sources/Lib",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MetaViewDemo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need camera";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Need mic";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jp.stageinc.app.blue.develop.MetaViewDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = io.agora.AgoraLiveBroadcast1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MetaViewDemo/Sources/Lib/MetaViewDemo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -358,6 +654,126 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F59177372BAD5A38001599DE /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AgoraIO/AgoraRtcEngine_iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.3.0;
+			};
+		};
+		F59177562BAD5B68001599DE /* XCRemoteSwiftPackageReference "ELKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/khacdai37/ELKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		F5E3C9BD2B98577100230EF6 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F59177382BAD5A38001599DE /* AIAEC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F59177372BAD5A38001599DE /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = AIAEC;
+		};
+		F591773A2BAD5A38001599DE /* AINS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F59177372BAD5A38001599DE /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = AINS;
+		};
+		F591773C2BAD5A38001599DE /* AudioBeauty */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F59177372BAD5A38001599DE /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = AudioBeauty;
+		};
+		F591773E2BAD5A38001599DE /* ClearVision */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F59177372BAD5A38001599DE /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = ClearVision;
+		};
+		F59177402BAD5A38001599DE /* ContentInspect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F59177372BAD5A38001599DE /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = ContentInspect;
+		};
+		F59177422BAD5A38001599DE /* FaceCapture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F59177372BAD5A38001599DE /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = FaceCapture;
+		};
+		F59177442BAD5A38001599DE /* FaceDetection */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F59177372BAD5A38001599DE /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = FaceDetection;
+		};
+		F59177462BAD5A38001599DE /* ReplayKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F59177372BAD5A38001599DE /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = ReplayKit;
+		};
+		F59177482BAD5A38001599DE /* RtcBasic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F59177372BAD5A38001599DE /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = RtcBasic;
+		};
+		F591774A2BAD5A38001599DE /* SpatialAudio */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F59177372BAD5A38001599DE /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = SpatialAudio;
+		};
+		F591774C2BAD5A38001599DE /* VQA */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F59177372BAD5A38001599DE /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = VQA;
+		};
+		F591774E2BAD5A38001599DE /* VideoAv1CodecDec */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F59177372BAD5A38001599DE /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = VideoAv1CodecDec;
+		};
+		F59177502BAD5A38001599DE /* VideoCodecDec */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F59177372BAD5A38001599DE /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = VideoCodecDec;
+		};
+		F59177522BAD5A38001599DE /* VideoCodecEnc */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F59177372BAD5A38001599DE /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = VideoCodecEnc;
+		};
+		F59177542BAD5A38001599DE /* VirtualBackground */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F59177372BAD5A38001599DE /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = VirtualBackground;
+		};
+		F59177572BAD5B68001599DE /* ELCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F59177562BAD5B68001599DE /* XCRemoteSwiftPackageReference "ELKit" */;
+			productName = ELCore;
+		};
+		F59177592BAD5B68001599DE /* ELUIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F59177562BAD5B68001599DE /* XCRemoteSwiftPackageReference "ELKit" */;
+			productName = ELUIKit;
+		};
+		F5E3C9C22B985B9400230EF6 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5E3C9BD2B98577100230EF6 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F596F1F62B91C6E200514407 /* Project object */;
 }
