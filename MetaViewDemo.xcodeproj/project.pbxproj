@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F50405F92BAD993F00B9CE03 /* HeartAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50405F82BAD993F00B9CE03 /* HeartAnimationViewController.swift */; };
+		F50405FB2BB1135700B9CE03 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = F50405FA2BB1135700B9CE03 /* heart.png */; };
 		F51ED1502BAD646C00397C33 /* FeatureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51ED14F2BAD646C00397C33 /* FeatureApp.swift */; };
 		F51ED1522BAD682600397C33 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51ED1512BAD682600397C33 /* AppCoordinator.swift */; };
 		F51ED1542BAD684E00397C33 /* CoordinatorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51ED1532BAD684E00397C33 /* CoordinatorManager.swift */; };
@@ -39,6 +41,8 @@
 		F596F2062B91C6E200514407 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F596F2052B91C6E200514407 /* MainViewController.swift */; };
 		F596F20B2B91C6E300514407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F596F20A2B91C6E300514407 /* Assets.xcassets */; };
 		F596F20E2B91C6E300514407 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F596F20C2B91C6E300514407 /* LaunchScreen.storyboard */; };
+		F5CF33142BB14FE900F56EA9 /* HeartAnimationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CF33132BB14FE900F56EA9 /* HeartAnimationViewModel.swift */; };
+		F5CF33162BB1573D00F56EA9 /* HeartAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CF33152BB1573D00F56EA9 /* HeartAnimationController.swift */; };
 		F5E3C9BC2B98563300230EF6 /* RTCEngineKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E3C9BB2B98563300230EF6 /* RTCEngineKitViewController.swift */; };
 		F5E3C9C32B985B9400230EF6 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = F5E3C9C22B985B9400230EF6 /* SnapKit-Dynamic */; };
 		F5E3C9C42B985B9400230EF6 /* SnapKit-Dynamic in Embed Frameworks */ = {isa = PBXBuildFile; productRef = F5E3C9C22B985B9400230EF6 /* SnapKit-Dynamic */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
@@ -79,6 +83,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F50405F82BAD993F00B9CE03 /* HeartAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartAnimationViewController.swift; sourceTree = "<group>"; };
+		F50405FA2BB1135700B9CE03 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
 		F51ED14F2BAD646C00397C33 /* FeatureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureApp.swift; sourceTree = "<group>"; };
 		F51ED1512BAD682600397C33 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		F51ED1532BAD684E00397C33 /* CoordinatorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatorManager.swift; sourceTree = "<group>"; };
@@ -95,6 +101,8 @@
 		F596F20A2B91C6E300514407 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F596F20D2B91C6E300514407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F596F20F2B91C6E300514407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5CF33132BB14FE900F56EA9 /* HeartAnimationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartAnimationViewModel.swift; sourceTree = "<group>"; };
+		F5CF33152BB1573D00F56EA9 /* HeartAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartAnimationController.swift; sourceTree = "<group>"; };
 		F5E3C9BB2B98563300230EF6 /* RTCEngineKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTCEngineKitViewController.swift; sourceTree = "<group>"; };
 		F5E3C9C72B985C0C00230EF6 /* FURenderKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FURenderKit.framework; sourceTree = "<group>"; };
 		F5E3C9C82B985C0C00230EF6 /* authpack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = authpack.h; sourceTree = "<group>"; };
@@ -158,6 +166,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F50405F72BAD991600B9CE03 /* HearAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				F50405F82BAD993F00B9CE03 /* HeartAnimationViewController.swift */,
+				F5CF33132BB14FE900F56EA9 /* HeartAnimationViewModel.swift */,
+				F5CF33152BB1573D00F56EA9 /* HeartAnimationController.swift */,
+			);
+			path = HearAnimation;
+			sourceTree = "<group>";
+		};
 		F51ED14E2BAD645C00397C33 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
@@ -214,6 +232,7 @@
 		F596F2002B91C6E200514407 /* MetaViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F50405F72BAD991600B9CE03 /* HearAnimation */,
 				F591775D2BAD5E9D001599DE /* Main */,
 				F51ED1582BAD6D9400397C33 /* RtcEngineKit */,
 				F51ED1552BAD6A9D00397C33 /* App */,
@@ -232,6 +251,7 @@
 		F5E3C9B62B98516000230EF6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F50405FA2BB1135700B9CE03 /* heart.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -400,6 +420,7 @@
 				F596F20B2B91C6E300514407 /* Assets.xcassets in Resources */,
 				F5E3C9DB2B985C0C00230EF6 /* tongue.bundle in Resources */,
 				F5E3C9DD2B985C0C00230EF6 /* face_makeup.bundle in Resources */,
+				F50405FB2BB1135700B9CE03 /* heart.png in Resources */,
 				F5E3C9DE2B985C0C00230EF6 /* controller_cpp.bundle in Resources */,
 				F5E3C9E12B985C0C00230EF6 /* face_beautification.bundle in Resources */,
 				F51FEF6E2B999F4B00FCC717 /* CatSparks.bundle in Resources */,
@@ -417,8 +438,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F50405F92BAD993F00B9CE03 /* HeartAnimationViewController.swift in Sources */,
 				F51ED1522BAD682600397C33 /* AppCoordinator.swift in Sources */,
 				F596F2062B91C6E200514407 /* MainViewController.swift in Sources */,
+				F5CF33162BB1573D00F56EA9 /* HeartAnimationController.swift in Sources */,
 				F51ED1572BAD6AB300397C33 /* MainCoordinator.swift in Sources */,
 				F51ED15A2BAD6E8900397C33 /* RTCEngineKitViewModel.swift in Sources */,
 				F591775C2BAD5E98001599DE /* MainViewModel.swift in Sources */,
@@ -426,6 +449,7 @@
 				F51ED1502BAD646C00397C33 /* FeatureApp.swift in Sources */,
 				F51ED1542BAD684E00397C33 /* CoordinatorManager.swift in Sources */,
 				F5E3C9EB2B98606C00230EF6 /* FUManager.m in Sources */,
+				F5CF33142BB14FE900F56EA9 /* HeartAnimationViewModel.swift in Sources */,
 				F596F2042B91C6E200514407 /* SceneDelegate.swift in Sources */,
 				F5E3C9BC2B98563300230EF6 /* RTCEngineKitViewController.swift in Sources */,
 			);

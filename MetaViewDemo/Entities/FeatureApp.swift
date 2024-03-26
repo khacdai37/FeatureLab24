@@ -9,4 +9,5 @@ import UIKit
 
 enum FeatureApp: String, CaseIterable {
   case rtcEngineKit = "RTCEngine Kit"
+  case heartAnimation = "heartAnimation"
 }

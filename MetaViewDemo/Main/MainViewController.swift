@@ -63,6 +63,8 @@ extension MainViewController: UITableViewDelegate {
     switch item {
     case .rtcEngineKit:
       viewModel.coordinator?.transition(to: Scene(name: .RTCEngineKit, object: nil))
+    case .heartAnimation:
+      viewModel.coordinator?.transition(to: .init(name: .HeartAnimation, object: nil))
     }
   }
 }

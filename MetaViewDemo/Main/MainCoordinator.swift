@@ -10,7 +10,8 @@ import ELCore
 
 class MainCoordinator: BaseCoordinator {
   override func start(scene: Scene?) {
-    showMain()
+    // showMain()
+    showHeartAnimation()
   }
 
   private func showMain() {
@@ -25,6 +26,8 @@ class MainCoordinator: BaseCoordinator {
     switch scene.name {
     case .RTCEngineKit:
       showRtcEngine()
+    case .HeartAnimation:
+      showHeartAnimation()
     default:
       super.transition(to: scene)
     }
@@ -36,8 +39,16 @@ class MainCoordinator: BaseCoordinator {
     vc.bindViewModel(to: vm)
     router.push(vc)
   }
+
+  func showHeartAnimation() {
+    var vc = HeartAnimationViewController()
+    let vm = HeartAnimationViewModel()
+    vc.bindViewModel(to: vm)
+    router.push(vc)
+  }
 }
 
 extension Scene.Name {
   static let RTCEngineKit = Scene.Name(rawValue: "com.abc.RTCEngineKit")
+  static let HeartAnimation = Scene.Name(rawValue: "com.abc.HeartAnimation")
 }
