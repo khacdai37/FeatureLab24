@@ -27,11 +27,15 @@ class HeartAnimationController {
       }
       view.layer.setValue(self, forKey: "heartAnimationController")
       let tapGesture = UITapGestureRecognizer(target: self, action: #selector(tapgestureAction))
+      tapGesture.numberOfTapsRequired = 2
       view.addGestureRecognizer(tapGesture)
     }
   }
 
   @objc private func tapgestureAction(_ sender: UITapGestureRecognizer) {
+    let generator = UIImpactFeedbackGenerator(style: .light)
+    generator.impactOccurred()
+
     let point = sender.location(in: sourceView)
     let path = createCurvePath(endPoint: point, startPoint: localSourcePoint, controlPointOffset: localSourcePoint)
     addAnimation(with: path, point: point)

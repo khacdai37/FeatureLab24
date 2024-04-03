@@ -10,6 +10,15 @@
       }
     },
     {
+      "identity" : "elkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/khacdai37/ELKit.git",
+      "state" : {
+        "revision" : "5ddbe37b8b6b963adc03392513d71e11b9388b5d",
+        "version" : "1.0.1"
+      }
+    },
+    {
       "identity" : "snapkit",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/SnapKit/SnapKit.git",

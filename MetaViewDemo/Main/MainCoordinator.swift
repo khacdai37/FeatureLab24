@@ -10,8 +10,9 @@ import ELCore
 
 class MainCoordinator: BaseCoordinator {
   override func start(scene: Scene?) {
-    // showMain()
-    showHeartAnimation()
+     showMain()
+    // showHeartAnimation()
+//    showTaptickFeedback()
   }
 
   private func showMain() {
@@ -28,6 +29,8 @@ class MainCoordinator: BaseCoordinator {
       showRtcEngine()
     case .HeartAnimation:
       showHeartAnimation()
+    case .TaptickFeedback:
+      showTaptickFeedback()
     default:
       super.transition(to: scene)
     }
@@ -46,9 +49,17 @@ class MainCoordinator: BaseCoordinator {
     vc.bindViewModel(to: vm)
     router.push(vc)
   }
+
+  func showTaptickFeedback() {
+    var vc = TaptickFeedbackViewController()
+    let vm = TaptickFeedbackViewModel()
+    vc.bindViewModel(to: vm)
+    router.push(vc)
+  }
 }
 
 extension Scene.Name {
   static let RTCEngineKit = Scene.Name(rawValue: "com.abc.RTCEngineKit")
   static let HeartAnimation = Scene.Name(rawValue: "com.abc.HeartAnimation")
+  static let TaptickFeedback = Scene.Name(rawValue: "com.abc.TaptickFeedback")
 }

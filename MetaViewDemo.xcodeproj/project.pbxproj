@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E3D8FFC12BBCF19700BFB295 /* TaptickFeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D8FFC02BBCF19700BFB295 /* TaptickFeedbackViewController.swift */; };
 		F50405F92BAD993F00B9CE03 /* HeartAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50405F82BAD993F00B9CE03 /* HeartAnimationViewController.swift */; };
 		F50405FB2BB1135700B9CE03 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = F50405FA2BB1135700B9CE03 /* heart.png */; };
 		F51ED1502BAD646C00397C33 /* FeatureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51ED14F2BAD646C00397C33 /* FeatureApp.swift */; };
@@ -83,6 +84,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E3D8FFC02BBCF19700BFB295 /* TaptickFeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaptickFeedbackViewController.swift; sourceTree = "<group>"; };
 		F50405F82BAD993F00B9CE03 /* HeartAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartAnimationViewController.swift; sourceTree = "<group>"; };
 		F50405FA2BB1135700B9CE03 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
 		F51ED14F2BAD646C00397C33 /* FeatureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureApp.swift; sourceTree = "<group>"; };
@@ -166,6 +168,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E3D8FFBF2BBCF17900BFB295 /* TaptickFeedback */ = {
+			isa = PBXGroup;
+			children = (
+				E3D8FFC02BBCF19700BFB295 /* TaptickFeedbackViewController.swift */,
+			);
+			path = TaptickFeedback;
+			sourceTree = "<group>";
+		};
 		F50405F72BAD991600B9CE03 /* HearAnimation */ = {
 			isa = PBXGroup;
 			children = (
@@ -232,9 +242,10 @@
 		F596F2002B91C6E200514407 /* MetaViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E3D8FFBF2BBCF17900BFB295 /* TaptickFeedback */,
+				F51ED1582BAD6D9400397C33 /* RtcEngineKit */,
 				F50405F72BAD991600B9CE03 /* HearAnimation */,
 				F591775D2BAD5E9D001599DE /* Main */,
-				F51ED1582BAD6D9400397C33 /* RtcEngineKit */,
 				F51ED1552BAD6A9D00397C33 /* App */,
 				F51ED14E2BAD645C00397C33 /* Entities */,
 				F596F2012B91C6E200514407 /* AppDelegate.swift */,
@@ -450,6 +461,7 @@
 				F51ED1542BAD684E00397C33 /* CoordinatorManager.swift in Sources */,
 				F5E3C9EB2B98606C00230EF6 /* FUManager.m in Sources */,
 				F5CF33142BB14FE900F56EA9 /* HeartAnimationViewModel.swift in Sources */,
+				E3D8FFC12BBCF19700BFB295 /* TaptickFeedbackViewController.swift in Sources */,
 				F596F2042B91C6E200514407 /* SceneDelegate.swift in Sources */,
 				F5E3C9BC2B98563300230EF6 /* RTCEngineKitViewController.swift in Sources */,
 			);

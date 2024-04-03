@@ -30,7 +30,7 @@ class HeartAnimationViewController: ViewController, BindableType {
   private func setupView() {
     view.backgroundColor = .white
     let animationController = HeartAnimationController(CGPoint(x: 50, y: 50), globalSourcePoint: CGPoint(x: 350, y: 800))
-    animationController.overlayView = view
+    animationController.sourceView = view
   }
 
   func bindViewModel() {

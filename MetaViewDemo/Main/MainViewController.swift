@@ -65,6 +65,8 @@ extension MainViewController: UITableViewDelegate {
       viewModel.coordinator?.transition(to: Scene(name: .RTCEngineKit, object: nil))
     case .heartAnimation:
       viewModel.coordinator?.transition(to: .init(name: .HeartAnimation, object: nil))
+    case .tapticFeedback:
+      viewModel.coordinator?.transition(to: Scene(name: .TaptickFeedback, object: nil))
     }
   }
 }
